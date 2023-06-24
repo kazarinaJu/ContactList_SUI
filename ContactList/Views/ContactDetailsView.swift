@@ -21,7 +21,7 @@ struct ContactDetailsView: View {
                 Spacer()
             }
             ContactRowView(content: person.phone, image: "phone")
-            ContactRowView(content: person.email, image: "square.and.pencil")
+            ContactRowView(content: person.email, image: "tray")
         }
         .navigationTitle(person.fullname)
     }

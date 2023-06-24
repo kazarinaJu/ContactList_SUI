@@ -15,7 +15,7 @@ struct ContactRowView: View {
         HStack {
             Image(systemName: "\(image)")
                 .resizable()
-                .frame(width: 18, height: 18)
+                .frame(width: 25, height: 20)
                 .foregroundColor(.blue)
             Text(content)
         }

@@ -14,7 +14,7 @@
 		05F407192A470A28008D980B /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F407182A470A28008D980B /* DataStore.swift */; };
 		05F4071C2A470A68008D980B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4071B2A470A68008D980B /* Person.swift */; };
 		05F4071F2A470D45008D980B /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4071E2A470D45008D980B /* HomeScreenView.swift */; };
-		05F407212A470E30008D980B /* NumbersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F407202A470E30008D980B /* NumbersListView.swift */; };
+		05F407212A470E30008D980B /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F407202A470E30008D980B /* NumbersView.swift */; };
 		05F407232A470EBE008D980B /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F407222A470EBE008D980B /* ContactDetailsView.swift */; };
 		05F407252A470F32008D980B /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F407242A470F32008D980B /* ContactRowView.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 		05F407182A470A28008D980B /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		05F4071B2A470A68008D980B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		05F4071E2A470D45008D980B /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
-		05F407202A470E30008D980B /* NumbersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersListView.swift; sourceTree = "<group>"; };
+		05F407202A470E30008D980B /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 		05F407222A470EBE008D980B /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
 		05F407242A470F32008D980B /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +102,7 @@
 			children = (
 				05F4070B2A470908008D980B /* ContentView.swift */,
 				05F4071E2A470D45008D980B /* HomeScreenView.swift */,
-				05F407202A470E30008D980B /* NumbersListView.swift */,
+				05F407202A470E30008D980B /* NumbersView.swift */,
 				05F407222A470EBE008D980B /* ContactDetailsView.swift */,
 				05F407242A470F32008D980B /* ContactRowView.swift */,
 			);
@@ -183,7 +183,7 @@
 				05F407192A470A28008D980B /* DataStore.swift in Sources */,
 				05F4071F2A470D45008D980B /* HomeScreenView.swift in Sources */,
 				05F407232A470EBE008D980B /* ContactDetailsView.swift in Sources */,
-				05F407212A470E30008D980B /* NumbersListView.swift in Sources */,
+				05F407212A470E30008D980B /* NumbersView.swift in Sources */,
 				05F4071C2A470A68008D980B /* Person.swift in Sources */,
 				05F407252A470F32008D980B /* ContactRowView.swift in Sources */,
 				05F4070A2A470908008D980B /* ContactListApp.swift in Sources */,

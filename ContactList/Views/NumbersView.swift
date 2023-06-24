@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NumbersListView: View {
+struct NumbersView: View {
     let contacts: [Person]
     
     var body: some View {
@@ -15,17 +15,17 @@ struct NumbersListView: View {
             List(contacts) { contact in
                 Section(header: Text(contact.fullname).font(.headline)) {
                     ContactRowView(content: contact.phone, image: "phone")
-                    ContactRowView(content: contact.email, image: "square.and.pencil")
+                    ContactRowView(content: contact.email, image: "tray")
                 }
             }
             .listStyle(.plain)
-            .navigationTitle("Numbers List")
+            .navigationTitle("Contact List")
         }
     }
 }
 
 struct NumbersView_Previews: PreviewProvider {
     static var previews: some View {
-        NumbersListView(contacts: Person.getContactList())
+        NumbersView(contacts: Person.getContactList())
     }
 }
